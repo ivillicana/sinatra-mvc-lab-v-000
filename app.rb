@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   post '/piglatinize' do
-    erb :piglatinize
+    erb :pig_latinize
   end
-  
+
 end
